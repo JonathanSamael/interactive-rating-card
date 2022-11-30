@@ -4,7 +4,6 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-
 .container {
     height: 95vh;
     display: flex;
@@ -76,7 +75,8 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-.first-state #btn-submit, .second-state #rate-again {
+.first-state #btn-submit,
+.second-state #rate-again {
     width: 340px;
     padding: 10px;
     border-radius: 30px;
@@ -88,13 +88,13 @@ body {
     cursor: pointer;
 }
 
-.first-state #btn-submit:hover, .second-state #rate-again:hover {
+.first-state #btn-submit:hover,
+.second-state #rate-again:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
 
 /* Rating state end */
-
 /* Thank you state start */
 .second-state {
     padding: 30px;
@@ -118,7 +118,6 @@ body {
     text-align: center;
 }
 
-
 .second-state .text-thank {
     text-align: center;
 }
@@ -126,6 +125,7 @@ body {
 .hidden {
     display: none;
 }
+
 /* Thank you state end */
 
 .attribution {
